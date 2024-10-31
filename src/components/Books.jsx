@@ -31,7 +31,7 @@ function Books() {
   };
 
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <Search
         searchText={searchText}
         setSearchText={setSearchText}
