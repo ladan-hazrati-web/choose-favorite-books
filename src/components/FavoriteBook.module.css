@@ -5,6 +5,7 @@
   align-items: center;
   background-color: rgb(88, 86, 86);
   padding: 20px;
+  gap: 15px;
 }
 p {
   font-size: 15px;
