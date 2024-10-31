@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(35, 34, 34);
+  width: 95%;
+  margin: 20px auto;
+  align-items: start;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
+.col1 {
+  display: flex;
+  gap: 20px;
+}
+img {
+  width: 150px;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 450px;
+    margin: 20px 10px;
+  }
+}
