@@ -72,7 +72,7 @@ const books = [
     language: "Arabic",
     link: "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n",
     pages: 288,
-    title: "One Thousand and One Nights",
+    title: "One Thousand",
     year: 1200,
   },
   {
