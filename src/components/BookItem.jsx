@@ -6,10 +6,10 @@ function BookItem({ book, likeHandler }) {
       <div className={styles.col1}>
         <img src={book.image} alt={book.title} />
         <div>
-          <h2>{book.title}</h2>
-          <h3>{book.author}</h3>
-          <h3>{book.language}</h3>
-          <h4>{book.pages}</h4>
+          <h3>{book.title}</h3>
+          <h4>{book.author}</h4>
+          <h4>{book.language}</h4>
+          <h5>{book.pages}</h5>
         </div>
       </div>
       <button onClick={() => likeHandler(book.id)}>
